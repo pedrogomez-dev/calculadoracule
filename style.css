@@ -1,0 +1,56 @@
+body{
+    display: block;
+    background-color: #074c97;
+}
+.flotar{
+    float: left;
+    height: 200px;
+    width: 120;
+}
+.centro{
+    display: flex;
+}
+.container{
+    height: 100vh;
+}
+.pantalla{
+    background-color: yellow;
+    grid-column: span 4;
+    grid-row: span 2;
+    border-radius: 20px;
+    font-size: 12rem;
+    display: flex;
+    align-items: center;
+}
+.dentro{
+    display: grid;
+    gap: 25px;
+}
+.botones{
+    display: grid;
+    grid-template-rows: 100px 100px 100px 100px 100px;
+    grid-template-columns: 100px 100px 100px 100px;
+    gap: 10px;
+}
+
+button{
+    height: 100px;
+    width: 100px;
+    border-radius:15px ;
+    background-color: #a50044;
+    color: white;
+    font-size: 3rem;
+    border: none;
+}
+.mas{
+    grid-row: span 2;
+}
+.mas button{
+    height: 100%;
+}
+.intro{
+    grid-column: span 3;
+}
+.intro button{
+    width: 100%;
+}
