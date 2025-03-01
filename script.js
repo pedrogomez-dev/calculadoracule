@@ -5,12 +5,6 @@ function tocar(value) {
     document.querySelector('.pantalla').value += value;
     console.log(value);
 }
-/*function resultado(){
-    document.querySelector('.pantalla').value = 6;
-    let sonido = new Audio();
-    sonido.src = './sonido.mp3';
-    sonido.play();
-}*/
 function resultado(){
     const resultField = document.querySelector('.pantalla');
     try {
